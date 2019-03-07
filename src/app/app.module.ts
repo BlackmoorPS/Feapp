@@ -7,7 +7,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AuthComponent } from './auth/auth.component';
 
 const routes: Routes = [
-  { path: '', component: HeaderComponent }
+  { path: '', component: AuthComponent }
   // { path: 'path', component: FeatureComponent },
   // { path: '**', component: PageNotFoundComponent },
 ];
